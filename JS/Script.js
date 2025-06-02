@@ -2,7 +2,7 @@ const API_URL = "http://cnms-parking-api.net.uztec.com.br/api/v1";
 
 // Carregar veículos ativos
 function carregarVeiculos() {
-  const imagem = document.getElementById("imagemDado");
+  const imagem = document.getElementById("sister1");
   const veiculosDiv = document.getElementById("veiculosList");
 
   // Esconde a imagem e mostra a lista
@@ -37,7 +37,7 @@ function carregarVeiculos() {
 
 // Função para voltar a imagem
 function voltarImagem() {
-  document.getElementById("imagemDado").style.display = "block";
+  document.getElementById("sister1").style.display = "block";
   document.getElementById("veiculosList").style.display = "none";
 }
 
