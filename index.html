@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>D20 minutos </title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="esquerda" id="painelEsquerda">
+            <h1>Estacionamento:</h1>
+            <img src="Midia/RPG.png" alt="Dado" class="imagem" id="imagemDado">
+            <h1>D20 minutos</h1>
+
+            <!-- Div para exibir os veículos no lugar da imagem -->
+            <div id="veiculosList" class="resultado" style="display: none;"></div>
+
+            <!-- Botão para voltar à imagem -->
+            <button onclick="voltarImagem()">Voltar</button>
+        </div>
+
+        <div class="direita">
+            <button onclick="registrarEntrada()">Entrada de Veículos</button>
+            <button onclick="registrarSaida()">Saída de Veículos</button>
+            <button onclick="verificarVeiculo()">Pesquisa</button>
+            <button onclick="cancelarVeiculo()">Remover registro</button><br><br>
+            <button onclick="carregarVeiculos()">Listar todos os veículos</button>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
